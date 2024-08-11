@@ -30,6 +30,7 @@ class TodoList extends StatelessWidget {
           children: [
             SlidableAction(onPressed:deleteFunction,
             icon: Icons.delete,
+            foregroundColor: Colors.red,
             borderRadius: BorderRadius.circular(15),
             ),
           ],
@@ -37,7 +38,7 @@ class TodoList extends StatelessWidget {
         child: Container(
           padding: const EdgeInsets.all(20),
           decoration: BoxDecoration(
-            color: Colors.deepPurple,
+            color: Colors.black87,
             borderRadius: BorderRadius.circular(10),
           ),
           child: Row(
